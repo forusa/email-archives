@@ -1,0 +1,682 @@
+.salsa{
+	padding:0px;
+	margin:0px;
+
+}
+div{
+	margin:0px;
+	padding:0px;
+}
+
+address {
+	font-style: normal;
+}
+
+.salsa .content{
+	margin:10px;
+}
+
+
+.salsa a{
+	color:#004D76;
+}
+.salsa th {
+	font:18px;
+	color:#444;
+	height: 25px;
+	border-bottom:#666 solid 1px;
+	text-align:left;
+	padding:5px 0 4px 3px;
+}
+
+.salsa p {
+	margin: 0 0 15px;
+	padding: 0;
+}
+.salsa em{
+	font-style:italic;
+	text-decoration: none;
+}
+
+.salsa .formRow em {
+	font-style: normal;
+	text-decoration: underline;
+}
+
+.salsa .formRow .checkboxLabel {
+	display: inline;
+}
+
+
+.salsa .supporterInfo{
+	clear:left;
+}
+
+.salsa .s-clearlist li {
+	list-style:none;
+	clear:both;
+	text-align:left;
+}
+
+.salsa label, .salsa legend {
+	font: 11px Verdana;
+	color: #333;
+	display: inline;
+	margin: 3px 5px 3px 0px;
+	padding:0px;
+}
+
+.checkbox {
+	font: 11px Verdana;
+	color: #333;
+	display: inline;
+	margin: 3px 5px 3px 0px;
+	padding:0px;
+	float: left;
+}
+.salsa .formRow {
+	clear: left;
+	float: none;
+	display: block;
+	padding-left:8px;
+}
+.salsa table {
+   font-size: 12px !important;
+}
+.salsa table.timestamp{
+	width:150px;
+}
+.salsa .dateInput{
+	width:85px;
+}
+.salsa .timeInput{
+	width:40px;
+}
+
+.salsa #map{
+	width:70%;
+	height:350px;
+}
+
+h1.salsa {
+	font: 2.2em/2em Arial, Helvetica, sans-serif ;
+	font-weight:normal;
+	margin: 0px 0 0 0;
+	text-transform:lowercase;
+}
+h2.salsa {
+	font: 1.8em/1.4em Arial, Helvetica, sans-serif ;
+	font-weight:normal;
+	margin: 12px 0 3px 0;
+	text-transform:lowercase;
+	clear:left;
+}
+h3.salsa {
+	font: 1.4em/1.3em Arial, Helvetica, sans-serif ;
+	font-weight:normal;
+	margin: 0 0 0 0;
+	text-transform:lowercase;
+}
+h4.salsa,.title {
+	font: 1.4em/1.3em Arial, Helvetica, sans-serif ;
+	font-weight:normal;
+	margin: 3px 0 0 0;
+}
+
+.salsa input,.salsa select,.salsa textarea{
+	margin: 2px 5px 5px 0;
+	clear: left;
+	padding: 3px;
+	font-size: .9em;
+	font-family: "Lucida Grande", "Lucida Sans", inherit;
+	border: 1px solid #666;
+	border-color: #888 #555 #555 #888;
+}
+
+.salsa input[type=text]{
+	width: 185px;
+	clear:left;
+}
+.salsa input[type=hidden] {
+	display: none;
+	visibility: hidden;
+}
+
+.salsa input.wide{
+	width: 350px;
+	display:block;
+}
+
+.salsa textarea{
+	width:350px;
+}
+
+
+
+.salsa .input3{width: 35px;}
+.salsa .input5{width: 55px;}
+
+
+.salsa .error,.salsa .success {
+	padding: 3px 0 0 5px;
+	margin:3px;
+	text-align:center;
+	font-size:1.1em;
+}
+.salsa .error{
+	margin-left:auto;
+	margin-right:auto;
+	background: #FFDDDD;
+	color: #C00;
+	border:solid #e8a6a6;
+	border-width:1px 0px 1px 0px;
+	width:40%;
+}
+
+.salsa .success{
+	border: solid #9AD357;
+	border-width: 1px 0px 1px 0px;
+	background: #F1FFE9;
+	color: #3AD307;
+}
+
+.salsa .message {
+	line-height: 1.2em;
+	padding:5px;
+	border:solid #333366;
+	border-width:1px 0px 1px 0px;
+	clear:both;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background: #92E8DB;
+	color: #333366;
+	width:60%;
+}
+
+.activeSession {
+	z-index: 100;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: block;
+	line-height: 1.2em;
+	font-size: 12px;
+	padding: 5px 10px;
+	border:solid #000;
+	border-width: 0px 0px 1px 0px;
+	text-align: center;
+	background: #333;
+	color: #FFF;
+	width: 100%;
+	font-family: 'Lucida Sans', 'Lucida Grande', verdana, sans-serif;
+	filter:alpha(opacity=90);
+	-moz-opacity:.90;
+	opacity:.90;
+}
+.salsa .activeSession a {
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.salsa .error input, .salsa .error select, .salsa .error textarea{
+	background-color:#f9f9f9;
+}
+
+.salsa .errorText{
+	font-size:12px;
+	color:red;
+}
+
+.salsa .errorField{
+	border:solid #e8a6a6;
+}
+
+.salsa .blockInput{
+	display:block;
+}
+
+
+
+.salsa span.key {
+	text-decoration: underline;
+}
+
+.salsa .cvv2{
+	width:30px;
+}
+
+.salsa .radio{
+	width:13px;
+	border:1px solid grey;
+	margin-bottom: 0px;
+}
+
+.salsa .checkbox, .salsa .checkbox input {
+	display: inline;
+	width: auto;
+}
+
+.salsa input[type=hidden]{ display: none; visibility: hidden; }
+
+.salsa button {
+	border: 1px solid #999;
+	display: block;
+	clear: both;
+	padding: 5px 5px 5px 25px;
+	cursor: hand;
+	background: #DDD url("../../../../../dia/api/img/email_go.png") no-repeat 5px center;
+	line-height: 16px;
+}
+.salsa button:hover {
+	border: 1px solid #6fa53d;
+	background: #c4e5a7 url("../../../../../dia/api/img/email_go.png") no-repeat 5px center;
+}
+
+
+.salsa span.required {
+	color: #C00;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 10px;
+}
+
+.salsa li.media{
+  float:left;
+  display:inline;
+  list-style:none;
+  padding:6px;
+  margin:2px;
+  width:160px;
+  height:100px;
+  position:relative;
+  border:1px solid #CCC;
+  line-height:1.3em;
+  clear:none;
+  font-size:12px;
+  list-style-position:outside;
+}
+
+.salsa li.media input{
+	float:left;
+	clear:none;
+}
+
+
+.salsa .inline{
+	display:inline;
+}
+
+.salsa .step2{
+	width:100%;
+	clear:left;
+}
+.breaker{
+	width:100%;
+	clear:both;
+}
+#LogoutTab{
+	float:right;
+}
+
+h1.salsa,h2.salsa,h3.salsa,h4.salsa, legend.salsa{
+	color:#D70;
+}
+
+
+.salsa fieldset {
+	border: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.salsa fieldset.border{
+	padding: 5px;
+	font-size:12px;
+	border: 1px solid grey;
+}
+
+.salsa legend {
+/*	font-size: 1.3em;
+	text-transform:lowercase;
+	padding: 40px 20px;
+	margin: 0px 0px -40px -10px;
+	display: block;
+	text-indent: 0;
+*/
+}
+
+
+
+.salsa .module{
+	padding: 15px 20px;
+	margin:0px;
+	font-size:12px;
+}
+.salsa .search {
+	padding: 5px 0 0 15px;
+	margin:0px;
+}
+
+.salsa .module h2{padding:0;margin:0;
+background:none;
+line-height: normal;font-size: 16px;
+}
+
+
+.salsa .inline{
+	display:inline;
+	float:left;
+}
+.salsa .submit{
+	float:none;
+	display:block;
+	width:120px;
+	clear:both;
+}
+
+.salsa .search form, .salsa .search h3 {
+	margin: 5px 0 0;
+	padding: 0;
+}
+
+.salsa .logincreate{
+	float:left;
+	padding:5px;
+	margin:5px;
+	width:300px;
+}
+
+.salsa .login{
+	padding:5px;
+	margin:5px;
+	width:200px;
+}
+.salsa .login .formRow{
+	width:110px;
+}
+
+.salsa .login input{
+	width:100px;
+}
+.salsa .login input.checkbox{
+	width:15px;
+}
+
+
+.salsa .box .formRow{
+	width:200px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+}
+
+
+.salsa .recipient{
+	padding:10px;
+	margin:5px;
+}
+.salsa .webformInfo{
+	background: url('../../../../../dia/api/img/module.png') 0 0 no-repeat;
+}
+.salsa .results{}
+
+.salsa .recipient h2{
+	font-size: 1.5em;
+	padding:0px;
+	margin:0px;
+	font-weight:normal;
+	clear:both;
+}
+.salsa .recipient img{
+	padding:5px;
+	float:left;
+}
+.salsa .recipient .phone{
+	font-weight:bold;
+}
+
+.salsa .webformInfo{
+	padding:0px;
+	margin:0px;
+}
+
+
+
+.salsa .event {
+	padding: 15px;
+	margin-bottom: 10px;
+	background: url('../../../../../dia/api/img/module.png') 0 0 no-repeat;
+}
+.salsa .date {
+	float: left;
+	border: 1px solid;
+	border-color: #feda62 #f2b641 #f2b641 #feda62;
+	background: #ffea8a;
+	text-align: center;
+	margin-right: 10px;
+}
+
+.salsa .day {
+	font-weight: bold;
+	font-size: .9em;
+	padding: 5px;
+	display: block;
+	color: #000;
+	border: solid #FFF;
+	border-width: 2px 2px 2px;
+}
+.salsa .time {
+	font-size: .9em;
+	display: block;
+	color: #333;
+	padding: 5px;
+	border: solid;
+	border-width: 0 2px 2px;
+	border-color: #FFF;
+	background: #CCC;
+	color: #333;
+	font-weight: bold;
+}
+.salsa .name {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+
+.salsa .distance {
+	font-size: 1.2em;
+	color: #666;
+}
+
+
+.salsa .date .start, .salsa .date .end {
+	text-align: left;
+	letter-spacing: 1px;
+	font-size: 10px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.salsa .event_view span.key {
+	text-decoration: underline;
+}
+.salsa .event_view .full {
+	clear: both;
+	float: none;
+	display: block;
+}
+.salsa .event_view .full input, .full select {
+	height:130px;
+	width: 450px;
+}
+.salsa .event_view button.rsvp {
+	border: 1px solid #999;
+	display: block;
+	clear: both;
+	padding: 8px 15px;
+	cursor: hand;
+	background: #DDD;
+	line-height: 16px;
+}
+.salsa .event_view button.rsvp:hover {
+	border: 1px solid #6fa53d;
+	background: #c4e5a7;
+}
+
+/* standard list style table */
+.salsa table.adminlist {
+	margin: 0px;
+	padding: 1px;
+	border: 1px solid #ccc;
+	border-spacing: 0px;
+	width: 100%;
+	border-collapse: collapse;
+}
+.salsa table.adminlist th, table.adminlist td{
+	height: 12px;
+	text-align: left;
+	margin: 0px;
+	padding: 1px;
+}
+.salsa #petitionContent {
+	border:1px solid #FFF;
+	background:#eee;
+	padding:10px;
+	font-size:.9em;
+}
+
+.salsa #petitionContent h4{
+	text-align:center;
+}
+
+.salsa #Letter_Content{
+	border:1px solid #aaa;
+	background:#eee;
+}
+.salsa #Letter_Subject{
+	margin:0px 5px 5px 0;
+	background:#eee;
+}
+
+
+.salsa #webformInput label{
+	font-weight: bold;
+	font-size:1.1em;
+}
+.salsa #sendMessage{
+	border: 1px solid #999;
+	display: block;
+	clear: both;
+	padding: 5px 5px 5px 25px;
+	margin: 10px 9px;
+	cursor: hand;
+	background: #DDD url("../../../../../dia/api/img/email_go.png") no-repeat 5px center;
+	line-height: 16px;
+}
+
+.salsa .sendMessage:hover {
+	border: 1px solid #6fa53d;
+	background: #c4e5a7 url("../../../../../dia/api/img/email_go.png") no-repeat 5px center;
+}
+
+
+.salsa .description{
+}
+.salsa .progressBar{
+}
+
+.salsa .item  {
+/* float:left; */
+vertical-align:top;
+width: 30%;
+padding-left: 10px;
+}
+
+.salsa .items div {
+	display:inline-block;
+}
+
+.item {
+vertical-align:top;
+width: 30%;
+padding-left: 10px;
+}
+
+.salsa .item img {
+width: 35%;
+float: left;
+padding-right: 10px;
+}
+
+.salsa .item h2 {
+padding-bottom: 10px;
+}
+
+
+.caption {
+  margin: 0 0 0 0px;
+  color: #666;
+  font-size: 11px;
+
+}
+
+.salsa .securitySeal {clear: both;}
+
+
+.salsa .chapterCaption {
+  float: left;
+  border: 1px solid;
+  border-color: #feda62 #f2b641 #f2b641 #feda62;
+  background: #ffea8a;
+  text-align: center;
+  margin-right: 10px;
+}
+
+
+/* Actions */
+
+.actioncontent {
+	width: 400px;
+	float: left;
+}
+.actioncontent label {
+	display: block;
+}
+.actioncontent input, .actioncontent textarea {
+	margin: 0 0 10px;
+}
+.targets {
+	padding: 0;
+	width: 300px;
+	float: left;
+}
+.targets h2 {
+	margin: 0 0 5px;
+	font-size: 1.3em;
+}
+.targets img.photo {
+	float: left;
+	margin: 0 10px 5px 0;
+}
+.diaFields .number {
+	font-weight: normal;
+}
+
+.salsa .clear {
+	clear:both;
+}
+
+
+.salsa li.smdp {
+	margin-bottom: 1em;
+}
+
+.salsa-optional-group {
+	list-style-type:none;
+	margin-left:0;
+}
+.salsa-optional-group label {font-weight:bold;}
+
+.salsa-checklist-header {font-weight:bold; margin:1em 0 .5em 0;}

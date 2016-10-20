@@ -1,0 +1,284 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"
+></head><body><link rel="stylesheet" type="text/css" href="../../../../salsa/include/css/dia/api/salsa.css"/><!-- Begin Share Toolbar -->
+			<style type="text/css">body { margin:0; padding:0; }
+				
+				#share-blast-toolbar {
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					color: #000;
+					width: 100%;
+					height: 25px;
+					line-height: 25px;
+					margin:0 auto;
+					text-align:center;
+					padding:5px 0px;
+					overflow:hidden;
+					border-bottom:1px solid #bbb;
+					background: #eeeeee; /* Old browsers */
+					background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%); /* FF3.6+ */
+					background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc)); /* Chrome,Safari4+ */
+					background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Chrome10+,Safari5.1+ */
+					background: -o-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Opera 11.10+ */
+					background: -ms-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* IE10+ */
+					background: linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* W3C */
+				}
+				#share-blast-toolbar .share-message { display:inline-block; margin:0px 10px 0px 0px; font-weight:bold; color:#666; text-shadow: 0px 1px 1px #fff; }
+				#share-blast-toolbar .share-blast-bug { display:inline-block; vertical-align: middle; padding-top:3px; cursor:pointer; }
+				#share-blast-toolbar .share-blast-bug img { margin-right:10px; }
+			</style>
+			
+			<script type='text/javascript'>
+			function shareFacebook()
+			{
+				var redirectUri = "http://wfc2.salsalabs.com/o/8001/p/salsa/feed/common/public/networks/fbshare/index.sjs?"
+					+ "message=" + escape('You\'re invited to a discussion with George Houser, tonight in Chapel Hill').replace(/%u..../,'')
+					+ '&link=' + escape('https://org.salsalabs.com/o/2507/t/0/blastContent.jsp?email_blast_KEY=1131870')
+			        + '&desc=' + escape('Dear [[First_Name]],    I am writing to invite you to a very special event in Chapel Hill tonight. Three generations of current and former FOR staff m...').replace(/%u..../,'');
+				
+				var tempVar = 153;
+				
+				var fbUrl = "https://www.facebook.com/dialog/oauth?client_id=166906046674269&redirect_uri="
+					+ encodeURIComponent(redirectUri) + "&response_type=token";
+
+				fbPopup = window.open(fbUrl,
+					"Connect","menubar=no,toolbar=no,location=no,resizable=yes,width=750,height=450");
+			}
+			
+			function shareTwitter() {
+					window.open("https://twitter.com/share?text="
+					+ escape('You\'re invited to a discussion with George Houser, tonight in Chapel Hill').replace(/%u..../,''),
+					"Tweet","menubar=no,resizable=no,width=550,height=150,location=no,toolbar=no");
+				trackClick("twitter");
+			}
+			</script>
+			
+			<div id="share-blast-toolbar">
+				<span class="share-message">Spread the word &raquo;</span>
+				<span class="share-blast-bug">
+					<img src="../../../../../hq.salsalabs.com/salsa/include/facebook.png" alt="Facebook" height="20" width="20" onclick='shareFacebook();' />
+					<img src="../../../../../hq.salsalabs.com/salsa/include/twitter.png" alt="Twitter" height="20" width="20" onclick='shareTwitter();' />
+				</span>
+			</div>
+			<!-- End Share Toolbar -->
+			
+			<html>
+<head>
+<title>FOR online network</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<link rel="stylesheet" href="http://forusa.org/FOR-textStyles.css" type="text/css" />
+
+<style type="text/css"><!--
+.bodytext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#groups {
+	margin: 0 20px 0 50px;
+}
+#groups input {
+	font-weight: bold;
+}
+.groupdesc {
+	font-size: 90%; display: block; color: #333;
+}
+
+a:link, a:active { color: #039 ;}
+a:visited, a:hover { color: #36c ;}
+
+.clear {font-size: 1px; height: 1px; }
+
+body, div, p, td, table, BODY, P, TD, TD P, TD UL, TD BLOCKQUOTE, BLOCKQUOTE, div p  {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+#maincontent, #maincontent table {
+ font-size: 14pt;
+}
+
+.section  h2 {
+	color: #039;
+	font-family: Futura, Arial, Helvetica, san-serif, sanserif, sans;
+	margin-top: 10px;
+}
+.section  h3 {
+	font-family: Futura, Arial, Helvetica, san-serif, sanserif, sans;
+	font-weight: normal;
+}
+.section h4 {
+	font-family: Futura, Arial, Helvetica, san-serif, sanserif, sans;
+	margin: 0px;
+	padding: 0px;
+	color: #666;
+	display:compact;
+}
+.section 		{ 
+	list-style: none ;
+	padding: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+	}
+.toplink	{
+	text-align: right ;
+	font-style: italic;
+	font-family: Arial, Helvetica, sans-serif ;
+	font-size: 80% ;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-bottom: 2px solid #ccc; 
+	clear: both;
+}
+.note { color: #f00; }
+li.dovebullet 	{ 
+	list-style:url("http://img.getactivehub.com/gv2/custom_images/forusa/dove-blue-25.gif");
+	padding-left: 1px;
+	padding-top: 3px;
+	}
+li.nobullet 	{ 
+	list-style: none ;
+	}
+#header	{
+	background: #036;
+	text-align: center;
+	width: 700px;
+	padding: 0px;
+	}
+#wrapper {
+       width: 700px;
+}
+
+#utilitybar a {
+	color: #fff;
+}
+#utilitybar {
+	padding: 0 10px 10px 0;
+	margin: 0px;
+	color: #369;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+}
+#utilitybar .homelink {
+	margin: 0px;
+	color: #369;
+	font-family: Futura, Arial, Helvetica, san-serif, sanserif, sans;
+	font-size: 1.2em;
+       /*  font-weight:bold; */
+}
+
+.plainbox1 {
+	margin: 0px;
+	padding: 10px;
+	border: 1px dotted #6699FF;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.meta {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #339900;
+	background-color: #ddddff;
+	float: right;
+	padding: 4px;
+}
+.section1 {	list-style: none ;
+	padding: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.highlight-blue {
+	 margin: 10px;
+	 padding: 5px;
+	 color:#039;
+	 background: #cdf;
+	 border: 1px solid #038 ;
+	 font-size: 90%;
+}
+
+#intro li strong a {
+	font-size: 115%;
+}
+
+ul.spacedlist li {
+ 	margin-bottom: .5em;
+} 
+-->
+</style>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<div  style="padding: 0 5px; background: #036;">
+<table width="100%" border="0" cellspacing="0" cellpadding="2" id="utilitybar">
+  <tr valign="bottom">
+    <td><a href="http://forusa.org"><img src="http://forusa.org/wrapper/wrapper-logo.gif" alt="FOR" width="143" height="62" border="0" /></a></td>
+    <td align="right"><img src="http://forusa.org/wrapper/wrapper-getinvolved.gif" alt="Get involved!" width="169" height="62" border="0"></td>
+  </tr>
+  <tr>
+    <td colspan="2" style=" background-image:url('http://forusa.org/wrapper/stripes.gif'); background-repeat:repeat-x ; height: 10px;"><img src="http://forusa.org/wrapper/wrapper-getinvolved.gif" alt="---" width="1" height="10" border="0"></td>
+    </tr>
+  <tr>
+    <td><div class="homelink"><a href="http://forusa.org" target="_blank" style="color: #fff;" >Fellowship&nbsp;of&nbsp;Reconciliation</a></div></td>
+    <td align="right">&nbsp;<a href="https://www.forusa.org/getinvolved/membership2.html" target="_blank" style="color: #fff;" >Join</a> &bull; <a href="https://salsa.democracyinaction.org/o/2507/t/6023/shop/custom.jsp?donate_page_KEY=3423" target="_blank" style="color: #fff;" >Donate</a> &bull; <a href="http://forpeace.net" target="_blank"  style="color: #fff;" >Blog</a> </td>
+  </tr>
+</table>
+</div>
+
+
+<div id="maincontent" style="padding: 10px">
+
+<!-- TemplateBeginEditable name="content" --><p>Dear Friends,</p>
+<p>I am writing to invite you to a very special event in Chapel Hill tonight. Three generations of current and former FOR staff members will be in town for <a href="http://salsa.democracyinaction.org/o/2507/t/6023/event/index.jsp?event_KEY=47774&amp;track=orangepolitics">tomorrow's ceremony unveiling a new historic marker</a> at the corner of Rosemary and Colombia Streets, the site of the old bus station where freedom riders were attacked and arrested in 1947.&#160; (For more background see the e-mail we sent last week, below.)&#160; </p>
+<p>Please join <a href="http://www.congressofracialequality.org/george+houser.aspx"><b>George Houser</b></a> (FOR Youth Secretary in the late 40's and early 50's, CORE co-founder, Journey of Reconciliation rider and co-organizer), <a href="http://robinwashington.com"><b>Robin Washington</b></a> (FOR Communications Director in the early 90's, documentarian), and <a href="http://forpeace.net/blog/ruby-sinreich"><b>Ruby Sinreich</b></a> (current FOR Communications Co-director, Chapel Hill native) for a discussion of nonviolent direct action organizing, the Journey of Reconciliation, and other topics.</p>
+<p>We will meet at the Franklin Hotel in downtown Chapel Hill to watch a short video of Jim Farmer talking about the first CORE sit in (in Chicago in 1942) and to discuss the principles of nonviolent direct action organizing.&#160; Where the discussion goes from there is up to you!</p>
+<p>Some snacks will be provided but you are welcome to bring food or drinks for yourself or to share.&#160; <a href="http://salsa.democracyinaction.org/o/2507/t/6023/event/index.jsp?event_KEY=47772&amp;track=CHinvite">Click here to learn more and RSVP.</a>&#160; I look forward to seeing you tonight.</p>
+<p>In peace,</p>
+<p>Ruby Sinreich</p>
+<p>&#160;</p>
+<hr />
+<p align="right">February 20, 2009</p>
+<p><img width="240" hspace="4" height="158" align="left" src="../../../../../farm3.static.flickr.com/2399/2109425578_ca8246e7a6_m.jpg" alt="[1947 freedom riders]" /><b>Did you know that the first civil rights "freedom ride" took place in 1947, fourteen years before the 1961 riders captured the nation's attention by exposing the brutality of Jim Crow in the South? The </b><a href="http://forpeace.net/tag/journey-reconciliation"><b>Journey of Reconciliation</b></a><b> was organized by the Congress of Racial Equality (CORE), which was born at FOR, and was led by FOR staff members Bayard Rustin and George Houser.</b></p>
+<p>The interracial group of nine men on the Journey of Reconciliation set out from Washington, D.C. on April 9th, 1947. They met some resistance from passengers and drivers on buses in Virginia and North Carolina. But when they attempted to sit at the front of a bus in Chapel Hill on April 12th, the driver refused, and removed some of the riders by force. They were then attacked by angry cab drivers at the Chapel Hill bus station, and arrested by local police. Their subsequent time serving on a chain gang led Rustin to write about the experience. His serialized journal led to major reforms in the North Carolina prison system.</p>
+<p><img width="240" hspace="4" height="233" align="right" src="../../../../../farm4.static.flickr.com/3392/3294544315_fa3077d5ff_m.jpg" alt="[historic marker]" />There are so many fascinating parts of this story. <a href="http://forpeace.net/blog/ruby-sinreich/chapel-hill-remembers">Please read this narrative by a local historian to learn more about the context and outcome of this journey.</a></p>
+<p>Next week, a state historic marker will be installed in Chapel Hill to commemorate the Journey of Reconciliation.&#160; The event will be an opportunity to remember the horrors of Jim Crow past, and to look forward at the racial justice challenges of our future.&#160; I hope you can join me at one or more of these events in Chapel Hill.&#160;  If not, perhaps you can show your support by <a href="https://salsa.democracyinaction.org/o/2507/t/6023/shop/custom.jsp?donate_page_KEY=4557">making a donation to FOR in honor of the first freedom ride</a>. Click the titles below to learn more and RSVP for these events.</p>
+<ul>
+    <li>Thursday 2/26, 7pm: <a href="http://salsa.democracyinaction.org/o/2507/t/6023/event/index.jsp?event_KEY=47769&amp;track=0902email"><strong>Screening &amp; discussion: 	"You Don't have to Ride Jim Crow."</strong></a><strong> <br />
+    </strong>Watch the documentary and discuss Chapel Hill's 	civil rights history with filmmaker Robin Washington. <br />
+    Sponsored by FOR and the Chapel Hill-Carrboro NAACP.<br />
+    &#160;</li>
+    <li>Friday 2/27, 7pm: <a href="http://salsa.democracyinaction.org/o/2507/t/6023/event/index.jsp?event_KEY=47772&amp;track=0902email"><strong>Nonviolent direct action organizing, then and now</strong>.</a> <br />
+    Salon discussion with three generations of FOR staff.<br />
+    Sponsored by FOR, hosted by Robin Washington.<br />
+    &#160;</li>
+    <li>Saturday 2/28, noon: <a href="http://salsa.democracyinaction.org/o/2507/t/6023/event/index.jsp?event_KEY=47774&amp;track=0902email"><strong>Day of Commemoration and Re-dedication</strong>.</a> <br />
+    Freedom Riders in Chapel Hill 1947-2009: The Struggle for Racial Justice Continues.<br />
+    Sponsored by the Chapel Hill-Carrboro NAACP and the Community Church, with support from the Town of Chapel Hill.</li>
+</ul>
+<p>I am helping to organize these events because I believe in the power of nonviolent direct action to bring about justice.&#160; I want others to remember this powerful legacy and to be inspired about the change we can continue to make happen today. I hope you will join me in Chapel Hill.</p>
+<p>Peace,</p>
+<p>Ruby Sinreich<br />
+Communications Co-Director<br />
+Fellowship of Reconciliation<br />
+Chapel Hill, N.C.</p>
+<p></p><!-- TemplateEndEditable -->
+
+</div>
+<p style="font-size:margin-top: 2em; text-align: center;"><strong>
+<nobr>Fellowship of Reconciliation</nobr>&nbsp; &bull; &nbsp;
+<nobr>521 N. Broadway</nobr>&nbsp;  &bull; &nbsp;
+<nobr>Nyack, New York 10960</nobr>&nbsp;  &bull; &nbsp;
+<nobr>845-358-4601</nobr>&nbsp;  &bull; &nbsp;
+http://FORUSA.org </strong>
+</p>
+<p style="font-size:margin-top: 0; text-align: center;">
+<em>
+Click here
+to <a href="http://salsa.democracyinaction.org/o/2507/profile/index.jsp?supporter_KEY=">change your subscription</a> or <a href="http://salsa.democracyinaction.org/o/2507/unsubscribe.jsp?Email=&amp;email_blast_KEY=&amp;organization_KEY=2507">unsubscribe</a> from <em>all</em> FOR e-mail lists. </em></p>
+</div>
+
+</body>
+</html></body></html>
